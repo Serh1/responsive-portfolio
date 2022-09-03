@@ -17,9 +17,9 @@
 </head>
 <body>
 <!--==================== HEADER ====================-->
-<header class="header" id="header" >
-    <nav class="nav container" >
-        <a href="#" class="nav__logo">Mateiu Sergiu</a>
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="#home" class="nav__logo">Mateiu Sergiu</a>
 
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list grid">
@@ -40,14 +40,14 @@
                 </li>
                 <li class="nav__item">
                     <a href="#qualification" class="nav__link">
-                        <i class="uil uil-arrow-alt nav__icon"></i> Qualification
+                        <i class="uil uil-graduation-cap nav__icon"></i> Qualification
                     </a>
                 </li>
-<!--                <li class="nav__item">-->
-<!--                    <a href="#services" class="nav__link">-->
-<!--                        <i class="uil uil-briefcase-alt nav__icon"></i> Services?-->
-<!--                    </a>-->
-<!--                </li>-->
+                <li class="nav__item">
+                    <a href="#portfolio" class="nav__link">
+                        <i class="uil uil-briefcase-alt nav__icon"></i> Portfolio
+                    </a>
+                </li>
                 <li class="nav__item">
                     <a href="#contact" class="nav__link">
                         <i class="uil uil-message nav__icon"></i> Contact Me
@@ -133,7 +133,7 @@
     </section>
 
     <!--==================== ABOUT ====================-->
-<!--    TODO: Add padding down-->
+    <!--    TODO: Add padding down-->
     <section class="about section" id="about">
         <h2 class="section__title">About Me</h2>
         <span class="section__subtitle">My introduction</span>
@@ -452,70 +452,84 @@
     </section>
 
 
-<!--   TODO: Add sections of tools like IDES-->
+    <!--   TODO: Add sections of tools like IDES-->
     <!--==================== SERVICES ====================-->
     <!--TODO: Change this services section to another section-->
-<!--    <section class="services section" id="services">-->
-<!--        <h2 class="section__title"> Services? </h2>-->
-<!--        <span class="section__subtitle"> Servicess description </span>-->
+    <!--    <section class="services section" id="services">-->
+    <!--        <h2 class="section__title"> Services? </h2>-->
+    <!--        <span class="section__subtitle"> Servicess description </span>-->
 
-<!--        <div class="qualification__container container">-->
-<!--        </div>-->
-
-<!--    </section>-->
-
-    <!--==================== PORTFOLIO ====================-->
-    <!--    <section class="portfolio section" id="portfolio">-->
-    <!--        <h2 class="section__title"> Portfolio </h2>-->
-    <!--        <span class="section__subtitle"> My projects </span>-->
-
-    <!--        <div class="portfolio__container container swiper-container">-->
-    <!--            <div class="swiper-wrapper">-->
-    <!--                &lt;!&ndash;==================== PORTFOLIO #1 ====================&ndash;&gt;-->
-    <!--                <div class="portfolio__content grid swiper-slide">-->
-    <!--                    <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">-->
-    <!--                    <div class="portfolio_data">-->
-    <!--                        <h3 class="portfolio__title"> proj 1</h3>-->
-    <!--                        <p class="portfolio__description"> Website de rupe aici text text text text-->
-    <!--                            text texttext texttext texttext text</p>-->
-    <!--                        <a href="#" class="button button&#45;&#45;flex button&#45;&#45;small portfolio__button">-->
-    <!--                            Demo<i class="uil uil-arrow-right button__icon"></i>-->
-    <!--                        </a>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-
-    <!--                &lt;!&ndash;==================== PORTFOLIO #2 ====================&ndash;&gt;-->
-    <!--                <div class="portfolio__content grid swiper-slide">-->
-    <!--                    <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">-->
-    <!--                    <div class="portfolio_data">-->
-    <!--                        <h3 class="portfolio__title"> proj 2</h3>-->
-    <!--                        <p class="portfolio__description"> Website de rupe aici text text text text-->
-    <!--                            text texttext texttext texttext text</p>-->
-    <!--                        <a href="#" class="button button&#45;&#45;flex button&#45;&#45;small portfolio__button">-->
-    <!--                            Demo<i class="uil uil-arrow-right button__icon"></i>-->
-    <!--                        </a>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-
-    <!--                &lt;!&ndash;==================== PORTFOLIO #3 ====================&ndash;&gt;-->
-    <!--                <div class="portfolio__content grid swiper-slide">-->
-    <!--                    <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">-->
-    <!--                    <div class="portfolio_data">-->
-    <!--                        <h3 class="portfolio__title"> proj 3</h3>-->
-    <!--                        <p class="portfolio__description"> Website de rupe aici text text text text-->
-    <!--                            text texttext texttext texttext text</p>-->
-    <!--                        <a href="#" class="button button&#45;&#45;flex button&#45;&#45;small portfolio__button">-->
-    <!--                            Demo<i class="uil uil-arrow-right button__icon"></i>-->
-    <!--                        </a>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-
-    <!--            </div>-->
-    <!--            <div class="swiper-pagination"></div>-->
-
+    <!--        <div class="qualification__container container">-->
     <!--        </div>-->
 
     <!--    </section>-->
+
+    <!--==================== PORTFOLIO ====================-->
+    <section class="portfolio section" id="portfolio">
+        <h2 class="section__title"> Portfolio </h2>
+        <span class="section__subtitle"> My projects </span>
+
+        <div class="portfolio__container container swiper-container">
+            <div class="swiper-wrapper">
+                <!--==================== PORTFOLIO #1 ====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio__title"> FoodShop</h3>
+                        <p class="portfolio__description">
+                            Website for a restaurant template. Made with PHP and MySQL.
+                        </p>
+                        <a href="#" class="button button--flex button--small portfolio__button">
+                            Demo<i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--==================== PORTFOLIO #2 ====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio__title"> Negombo </h3>
+                        <p class="portfolio__description">
+                            Contribution to Italian website 'Negombo' for booking sunbeds.
+                            PHP Laravel and JavaScript.
+                        </p>
+                        <a href="#" class="button button--flex button--small portfolio__button">
+                            Demo<i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--==================== PORTFOLIO #3 ====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio__title"> Gym Web App</h3>
+                        <p class="portfolio__description">
+                            MVC web application using C# and MySQL.
+                        </p>
+                        <a href="#" class="button button--flex button--small portfolio__button">
+                            Demo<i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Add Arrows-->
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+            </div>
+
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
 
     <!--==================== PROJECT IN MIND ====================-->
     <section class="project section">
@@ -565,30 +579,29 @@
             <form action="" class="contact__form grid">
                 <div class="contact__inputs grid">
                     <div class="contact__content">
-                        <label for="" class="contact__label">Name</label>
+                        <label for="" class="contact__label form__name">Name</label>
                         <input type="text" class="contact__input">
                     </div>
                     <div class="contact__content">
-                        <label for="" class="contact__label">Email</label>
+                        <label for="" class="contact__label form__email">Email</label>
                         <input type="email" class="contact__input">
                     </div>
                 </div>
-<!--                <div class="contact__content">-->
-<!--                    <label for="" class="contact__label">Project</label>-->
-<!--                    <input type="text" class="contact__input">-->
-<!--                </div>-->
+                <!--<div class="contact__content">-->
+                <!--<label for="" class="contact__label">Project</label>-->
+                <!--<input type="text" class="contact__input">-->
+                <!--</div>-->
 
                 <div class="contact__content">
-                    <label for="" class="contact__label">Message</label>
+                    <label for="" class="contact__label form__message">Message</label>
                     <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
                 </div>
 
                 <div>
-                    <a href="" class="button button--flex">
-                        Send Message
-                        <i class="uil uil-message button__icon"></i>
-                    </a>
-
+<!--                    <button type="submit" class="button button&#45;&#45;flex">-->
+<!--                        Send Message-->
+<!--                        <i class="uil uil-message button__icon"></i>-->
+<!--                    </button>-->
                 </div>
 
             </form>
@@ -644,6 +657,9 @@
 
 <!--==================== SWIPER JS ====================-->
 <script src="assets/js/swiper-bundle.min.js"></script>
+
+<!--==================== SEND EMAIL JS ====================-->
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 
 <!--==================== MAIN JS ====================-->
 <script src="assets/js/main.js"></script>
