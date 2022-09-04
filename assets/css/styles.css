@@ -521,17 +521,39 @@ img {
     width: 80%;
 }
 
+.skills__sql {
+    width: 60%;
+}
+/*Others*/
+.skills__matlab {
+    width: 80%;
+}
+
+.skills__sim {
+    width: 70%;
+}
+
+.skills__autocad {
+    width: 40%;
+}
+
+/*Interests*/
 .skills__py {
+    width: 10%;
+}
+
+.skills__figma {
+    width: 40%;
+}
+
+.skills__react {
     width: 5%;
 }
 
 .skills__node {
-    width: 20%;
+    width: 15%;
 }
 
-.skills__sql {
-    width: 60%;
-}
 
 .skills__close .skills__list {
     height: 0;
