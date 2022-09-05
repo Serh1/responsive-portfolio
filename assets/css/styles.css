@@ -493,48 +493,46 @@ img {
 
 /*Frontend - percentage not dynamic*/
 .skills__html {
-    width: 90%;
+    width: 85%;
 }
 
 .skills__css {
-    width: 60%;
+    width: 50%;
 }
 
 .skills__js {
-    width: 30%;
+    width: 20%;
 }
 
 /*Backend - percentage not dynamic*/
 .skills__java {
-    width: 90%;
+    width: 70%;
 }
 
 .skills__php {
-    width: 70%;
+    width: 50%;
 }
 
 .skills__csharp {
-    width: 70%;
-}
-
-.skills__matlab {
-    width: 80%;
+    width: 50%;
 }
 
 .skills__sql {
-    width: 60%;
+    width: 50%;
 }
+
+
 /*Others*/
 .skills__matlab {
-    width: 80%;
+    width: 60%;
 }
 
 .skills__sim {
-    width: 70%;
+    width: 60%;
 }
 
 .skills__autocad {
-    width: 40%;
+    width: 30%;
 }
 
 /*Interests*/
@@ -543,7 +541,7 @@ img {
 }
 
 .skills__figma {
-    width: 40%;
+    width: 20%;
 }
 
 .skills__react {
@@ -565,6 +563,11 @@ img {
     margin-bottom: var(--mb-2-5);
 }
 
+.skills__list-interests{
+    height: max-content;
+    margin-bottom: var(--mb-2-5);
+    display: flex;
+}
 .skills__open .skills__arrow {
     transform: rotate(-180deg);
 }
@@ -751,6 +754,9 @@ img {
     outline: none;
     padding: .25rem .5rem 0;
 }
+
+
+
 
 
 
@@ -975,8 +981,8 @@ img {
     }
 
     .nav.container{
-        padding-left: 150px;
-        padding-right: 150px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 
     .nav__icon,
@@ -1097,6 +1103,11 @@ img {
         width: 100%;
         padding-right: 2rem;
         padding-left: 2rem;
+    }
+
+    .nav.container{
+        padding-left: 200px;
+        padding-right: 200px;
     }
 
     /*TODO:increase img size*/
