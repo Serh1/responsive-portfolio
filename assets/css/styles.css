@@ -104,6 +104,7 @@ body.dark-theme {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    /*outline: 1px solid limegreen !important;*/
 }
 
 html {
@@ -424,6 +425,10 @@ img {
 /*==================== SKILLS ====================*/
 .skills__container {
     row-gap: 0;
+}
+
+.skills__content{
+    align-content: center;
 }
 
 .skills__header {
@@ -919,7 +924,12 @@ img {
     }
 
     .about__img{
-        width: 300px;
+        width: 500px;
+    }
+
+    .about__container .about__img{
+        justify-content: center;
+        align-content: center;
     }
 
 
@@ -929,11 +939,16 @@ img {
 
 
     .about__container,
-    .skills__container,
+    /*.skills__container,*/
     .portfolio__content,
     .contact__container,
     .footer__container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .skills__content{
+        justify-content: center;
+        align-content: center;
     }
 
     .qualification__sections {
@@ -1032,7 +1047,10 @@ img {
 
     .about__container {
         column-gap: 5rem;
+        align-content: center;
+        justify-content: center;
     }
+
 
 
     .about__description {
