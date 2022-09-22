@@ -1,6 +1,7 @@
 # Responsive Portfolio Website Sergiu
 ## Responsive Portfolio
 
+https://serh1.github.io/responsive-portfolio/
 - Template: [Bedimcode](https://www.youtube.com/c/Bedimcode)
 - Responsive Personal Portfolio Website Using HTML CSS & JavaScript
 - Smooth scrolling in each section.
