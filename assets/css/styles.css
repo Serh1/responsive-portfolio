@@ -519,6 +519,10 @@ img {
     width: 30%;
 }
 
+.skills__kotlin{
+    width: 30%;
+}
+
 .skills__csharp {
     width: 35%;
 }
@@ -529,6 +533,10 @@ img {
 
 
 /*Others*/
+.skills__android {
+    width: 40%;
+}
+
 .skills__matlab {
     width: 60%;
 }
