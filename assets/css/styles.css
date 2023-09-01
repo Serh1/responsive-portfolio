@@ -681,9 +681,12 @@ img {
 }
 
 .portfolio__img {
-  width: 600px;
   border-radius: 0.5rem;
   justify-self: center;
+  align-self: center;
+  transition: 0.3s;
+  object-fit: contain;
+  height: 300px;
 }
 
 .portfolio__title {
@@ -744,8 +747,6 @@ img {
     hsla(var(--hue-color), 24%, 40%, 0.3) 0%,
     hsla(var(--hue-color), 24%, 4%, 1) 95%
   );
-  display: grid;
-  align-items: flex-end;
   padding: 1.5rem 1.25rem;
   transition: 0.3s;
 }
