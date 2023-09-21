@@ -104,6 +104,7 @@ body.dark-theme {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  outline: 1px solid limegreen;
 }
 
 html {
@@ -678,6 +679,8 @@ img {
 
 .portfolio__content {
   padding: 0 1.5rem;
+  width: 1200px;
+  background-color: blue;
 }
 
 .portfolio__img {
@@ -685,8 +688,7 @@ img {
   justify-self: center;
   align-self: center;
   transition: 0.3s;
-  object-fit: contain;
-  height: 300px;
+  object-fit: cover;
 }
 
 .portfolio__title {
@@ -733,7 +735,8 @@ img {
 
 .projects__card img {
   width: 100%;
-  height: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 .projects__modal {
@@ -767,6 +770,10 @@ img {
 
 .projects__button {
   padding: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 .projects__card:hover .projects__modal {
@@ -1133,6 +1140,11 @@ img {
     grid-template-columns: 0.5fr;
   }
 
+  .projects__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
   .portfolio__img {
     width: 100px;
   }
@@ -1221,9 +1233,17 @@ img {
   }
 
   .projects__container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    width: 1000px;
+    width: 1200px;
+  }
+
+  .projects__subtitle {
+    font-size: var(--h3-font-size);
+  }
+
+  .projects__title {
+    font-size: var(--small-font-size);
   }
 
   textarea {
