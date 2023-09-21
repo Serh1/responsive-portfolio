@@ -390,6 +390,13 @@ img {
 }
 
 /*==================== ABOUT ====================*/
+.about__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+
 .about__img {
   width: 200px;
   border-radius: 0.5rem;
@@ -405,6 +412,7 @@ img {
 .about__info {
   display: flex;
   justify-content: space-evenly;
+  padding: 0 var(--mb-2-5);
   margin-bottom: var(--mb-2-5);
 }
 
