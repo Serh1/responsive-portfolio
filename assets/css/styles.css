@@ -249,6 +249,7 @@ img {
   color: var(--first-color);
 }
 
+/* TODO: Change the project image size */
 .nav__icon {
   font-size: 1.2rem;
 }
@@ -394,15 +395,18 @@ img {
 .about__data {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 3rem;
 }
 
 .about__img {
-  width: 200px;
+  height: 500px;
+  object-fit: cover;
+  position: relative;
   border-radius: 0.5rem;
   justify-self: center;
   align-self: center;
+  /* transform: translateY(50px); */
 }
 
 .about__description {
